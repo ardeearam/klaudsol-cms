@@ -97,7 +97,6 @@ const LoginForm = ({className, ...props}) => {
                 width={200} height={90}
           />
   			</div>
-			  <h4> Welcome to KlaudSol CMS!  </h4>
 				
 				<div className='form_login'>
         <div ref={errorBox} className="alert alert-danger useFadeEffect px-3 pt-3 pb-2 mb-0 mt-3"> <p>Incorrect username and/or password.</p> </div>
