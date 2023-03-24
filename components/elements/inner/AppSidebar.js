@@ -105,7 +105,6 @@ const AppSidebar = () => {
     <>
      {rootState.collapse && 
       <CollapsedSidebar 
-        entityTypeLinks={entityTypeLinks} 
         sidebarButtons={[...entityTypeLinks, ...sidebarButtons]} 
         firstName={firstName} 
         lastName={lastName} 

@@ -11,7 +11,7 @@ import 'simplebar/dist/simplebar.min.css'
 
 import SidebarFooterIcon from '@/components/klaudsolcms/dropdown/SidebarFooterIcon';
 
-const CollapsedSidebar = ({entityTypeLinks, sidebarButtons, firstName, lastName, defaultEntityType, router, setCollapse}) => {
+const CollapsedSidebar = ({sidebarButtons, firstName, lastName, defaultEntityType, router, setCollapse}) => {
   
   return (
     <CSidebar
